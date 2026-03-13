@@ -10,7 +10,6 @@ import ChatBubble from './components/ChatBubble';
 import Spinner from './components/Spinner';
 import DiagnosisCard from './components/DiagnosisCard';
 import PremiumFeatureCard from './components/PremiumFeatureCard';
-import HealthTips from './components/HealthTips';
 import { SendIcon } from './components/icons/SendIcon';
 import { LockIcon } from './components/icons/LockIcon';
 import { LinkIcon } from './components/icons/LinkIcon';
@@ -416,7 +415,6 @@ const App: React.FC = () => {
       </form>
       <div className="mt-12">
         <h3 className="text-xl font-bold text-gray-800 mb-4 text-center">Health Tips for Nigeria & Sub-Saharan Africa</h3>
-        <HealthTips />
       </div>
     </div>
   );
